@@ -10,9 +10,6 @@ const newAanimals = [
 {species:"Wolf",name:"Mary", weight:40, gaurd:"Chaitanya"},
 {species:"Wolf",name:"Mary", weight:40, gaurd:"Chaitanya"}
 ]
-
-
-
 // newAanimals.forEach(animal=>{
 //     animalModifiers.addAnimal(animal);
 // })

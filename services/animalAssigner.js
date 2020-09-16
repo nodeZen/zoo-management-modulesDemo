@@ -15,6 +15,6 @@ const animalAssigner = () => {
         fs.writeFileSync('./assets/gaurds.json', JSON.stringify(gaurdsJSON))
     }   
     else
-        console.log("please check Your gaurds.json file")   
+        console.log("Please check Your gaurds.json file data format")   
 }
 module.exports = animalAssigner

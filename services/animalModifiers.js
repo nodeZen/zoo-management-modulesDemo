@@ -61,7 +61,7 @@ const addAnimal = (animal) => {
         } else
             console.log("Invalid animal properties")
     } else
-        console.log("Please check Your anima.json file data format")
+        console.log("Please check Your animal.json file data format")
 }
 
 // Function to delete an animal
@@ -92,7 +92,7 @@ const deleteAnimal = (animal) => {
             console.log("No animals in the zoo");
 
     } else
-        console.log("Please check Your anima.json file data format")
+        console.log("Please check Your animal.json file data format")
 }
 // Exporting our two adding and delete functions
 module.exports = { addAnimal, deleteAnimal, animalsExist }
